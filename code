@@ -1,8 +1,11 @@
 #Brewed Awakening Coffee Shop
 
 #Create Greetings for Robot Barista
+import random 
 greetings = [
     "Welcome to Brewed Awakening Coffee Shop!",
     "AHH a Muggle! Oh I mean welcome to our Coffee Shop!",
     "The magical beans have foretold of your arrival! Welcome, Welcome!"
 ]
+
+print(random.choice(greetings))
