@@ -13,6 +13,25 @@ print(random.choice(greetings))
 #Get Customer Name
 name = input("And who do I have the pleasure of serving today?\n")
 
+#Barista Bouncer With Spice
+if name in ["Batman", "Loki", "Voldemort", "Thanos"]:
+    evil_status = input("Sounds suspiscious. Are you evil?\n")
+    good_deeds = int(input("How many good deeds have you done today?\n"))
+
+    if evil_status == "Yes" or "yes" and good_deeds < 4:
+        print("Get out of here " + name + " no service for villians.")
+        exit()
+    else:
+        print("Welcome in " + name + " thank you for choosing Brewed Awakening!!\n")
+else:
+    print("Welcome in , " + name + " thank you for choosing Brewed Awakening!!\n")
+
 #Create Menu 
-menu = "Black Coffee", "Cappuccino", "Espresso", "Latte", "Mocha"
+menu_items = { 
+"Black Coffee": 6, 
+"Cappuccino": 8, 
+"Espresso": 8, 
+"Latte": 9, 
+"Mocha": 10}
+
 
