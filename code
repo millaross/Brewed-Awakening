@@ -34,4 +34,11 @@ menu_items = {
 "Latte": 9, 
 "Mocha": 10}
 
+#Inform Customer of Daily Menu
+print("Here is what we have avaiable on the menu today:\n")
+for drink, price in menu_items.items():
+    print(f"- {drink}: ${price}")
+
+
+
 
