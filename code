@@ -3,9 +3,16 @@
 #Create Greetings for Robot Barista
 import random 
 greetings = [
-    "Welcome to Brewed Awakening Coffee Shop!",
-    "AHH a Muggle! Oh I mean welcome to our Coffee Shop!",
-    "The magical beans have foretold of your arrival! Welcome, Welcome!"
+    "Welcome to Brewed Awakening Coffee Shop!\n",
+    "AHH a Muggle! Oh I mean welcome to our Coffee Shop!\n",
+    "The magical beans have foretold of your arrival! Welcome, Welcome!\n"
 ]
 
 print(random.choice(greetings))
+
+#Get Customer Name
+name = input("And who do I have the pleasure of serving today?\n")
+
+#Create Menu 
+menu = "Black Coffee", "Cappuccino", "Espresso", "Latte", "Mocha"
+
